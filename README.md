@@ -37,6 +37,9 @@ For Cursor or others, paste `SKILL.md` into your rules file. The laws are tool-a
 
 Whatever we know that we can share, we do. These rules were paid for with real shipped work; passing them on costs nothing and helps the next builder and their assistant skip the same hills. Love your neighbor, share your notes.
 
+> "Love the LORD your God with all your heart and with all your soul and with all your strength."
+> — Deuteronomy 6:5
+
 ## Contributing
 
 Open an issue with the rule, the why, and one example of it breaking. Rules without a why do not get in.
