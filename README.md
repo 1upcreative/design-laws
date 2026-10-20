@@ -13,7 +13,7 @@ If you build with Claude Code, Cursor, Copilot or any assistant, drop these in a
 | `laws/02-relative-spacing.md` | Every gap is equal to a neighbor or a clean multiple of one. Never random. |
 | `laws/03-grid-and-layout.md` | Full-width text, no dead right gap, no stop-short elements, 320px works. |
 | `laws/04-typography.md` | Two faces, one scale, weight for hierarchy, readable measure. |
-| `laws/05-color-and-contrast.md` | Ink on an accent comes from the math, not a guess. Drop shadows as duct tape. |
+| `laws/05-color-and-contrast.md` | Palettes come from the color wheel. Ink on an accent comes from the math. Drop shadows as duct tape. |
 | `laws/06-controls.md` | Carets inset from the edge, the status pill is the control, grips not arrows, mark AI actions. |
 | `laws/07-density-and-copy.md` | No cricket text, no redundancy, chunked content, fifth-grade how-tos. |
 | `laws/08-verification.md` | Measure, don't eyeball. Both orientations, 320, reduced motion, Lighthouse. |

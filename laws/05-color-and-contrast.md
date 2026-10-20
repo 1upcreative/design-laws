@@ -15,9 +15,21 @@ Put a test on it. A build that lets an accent pair drop under 4.5:1 should fail.
 
 Body text at 4.5:1 or better, large text at 3:1. Check dark mode on its own. Do not invert light-mode values; use desaturated, lighter tonal variants.
 
+## Pick the palette from the color wheel
+
+Every palette comes from one of three schemes. Pick one per project and stay in it.
+
+1. **Complementary.** The brand color plus the color straight across the wheel. Aquamarine pairs with orange, blue with amber. The complement is the natural second accent, because it stands apart from the brand color at a glance.
+2. **Monochrome.** One hue in lighter and darker steps. Calm, and hard to get wrong.
+3. **Three colors.** Three hues spaced evenly around the wheel (a triad). Use it when a product needs more than two meanings, such as open, pending and staff-only on a calendar.
+
+Neutrals sit outside the scheme. Build them as even steps from black to white (90%, 80%, 70%, and on down), so every gray belongs to one ladder. Tint them with a hint of the brand hue if the page feels cold.
+
+A new color that fits none of the three schemes does not get in. Find its place on the wheel first.
+
 ## One accent carries meaning
 
-One brand accent for actions and "live". One second accent (amber) for "needs confirmation" or "prototype". Red only for danger. That is the palette. More colors, less meaning.
+One brand accent for actions and "live". One second accent, taken from the scheme (in a complementary palette, the complement), for "needs confirmation" or "prototype". Red only for danger. That is the palette. More colors, less meaning.
 
 ## Color is never the only signal
 

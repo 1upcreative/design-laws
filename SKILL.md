@@ -30,7 +30,8 @@ Read `laws/` for the why and the examples. This file is the checklist your assis
 ## 4. Color and contrast
 - Ink on an accent fill comes from the contrast math, never a literal. Compute the on-accent ink (white or near-black) per accent, and darken the fill until it clears 4.5:1 if white wins.
 - Every text pair passes WCAG AA. Dark mode gets its own check; do not invert light-mode values.
-- One accent carries meaning. A second accent (amber) marks "needs confirmation" or "prototype". That is the whole palette.
+- Pick the palette from the color wheel: complementary (brand + the color across the wheel), monochrome (one hue in steps), or three evenly spaced colors. Neutrals are even black-to-white steps (90%, 80%, 70%…). A color that fits none of these does not get in.
+- One accent carries meaning. A second accent from the scheme (the complement, in a complementary palette) marks "needs confirmation" or "prototype". That is the whole palette.
 - A weak logo on a background gets a drop shadow at the template level. Never recolor a brand.
 - Color is never the only signal. Pills carry a dot and a word, deltas carry an arrow and a word.
 
