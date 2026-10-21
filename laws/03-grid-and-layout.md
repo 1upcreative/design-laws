@@ -1,10 +1,20 @@
 # 03 · Grid and layout
 
-## 1440 is the desktop standard
+## 1440 is the desktop review width
 
-Design desktop at 1440 wide, and review every desktop comp at 1440 first. Content containers cap at 1440px, set once as a token (`--container: 1440px`) and read everywhere, so every page on a product lines up. Wider screens center the container; they do not stretch it.
+Design desktop at 1440 wide, and review every desktop comp at 1440 first. Every layout must fit and look right there.
 
-Why 1440: not everyone has a 1920 x 1080 screen, but most desktop and laptop screens can still fit a 1440 layout. Design for 1920 and smaller screens lose the layout; design for 1440 and big screens just get margin. A page that needs a narrower reading column caps its text inside the 1440 container. It does not invent its own container width.
+Why 1440: not everyone has a 1920 x 1080 screen, but most desktop and laptop screens can still fit a 1440 layout. Design for 1920 and smaller screens lose the layout; design for 1440 and you know it works almost everywhere.
+
+## Public pages share one container
+
+Customer-facing pages use one content container: 1240px wide with a fluid gutter of `clamp(16px, 4vw, 48px)` on each side. Set it once as tokens (`--wrap: 1240px; --gutter: clamp(16px, 4vw, 48px)`) and read it everywhere, so every public page lines up with the next. Wider screens center the container. A page that needs a narrower reading column caps its text inside the container. It does not invent its own width.
+
+These numbers are a living standard, not a forever rule. Screens change. When the common desktop widths shift, revisit the token, change it once, and every page follows.
+
+## Work tools may run wider
+
+Admin apps and dashboards (a sidebar plus tables, boards, calendars) may use more of a big screen. Capping them at 1440 with the sidebar included squeezes the data and leaves a dead gap beside the sidebar. They still must fit at 1440.
 
 ## No dead right gap
 

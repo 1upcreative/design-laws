@@ -15,7 +15,7 @@ Read `laws/` for the why and the examples. This file is the checklist your assis
 - Before showing work, name the ratio of every gap to its neighbor: 1:1, 1:2, 2:1. If you cannot name it, fix it.
 
 ## 2. Grid and layout
-- **1440 is the desktop standard.** Design and review desktop at 1440. Containers cap at 1440px from one token; wider screens center it.
+- **1440 is the desktop review width.** Every layout must fit there. Public pages share one container: 1240px + `clamp(16px, 4vw, 48px)` gutters. Admin apps may run wider.
 - Text spans its container. No measure caps inside full-width blocks, no column gutters splitting running copy.
 - No element stops short while its siblings span the row. No dead right gap, at any viewport.
 - No equal-height stretching of a sidebar or aside card just because its neighbor is tall. Cards hug content.
