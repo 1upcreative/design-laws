@@ -11,7 +11,7 @@ If you build with Claude Code, Cursor, Copilot or any assistant, drop these in a
 | `SKILL.md` | A drop-in skill for Claude Code. The laws, condensed, with a pre-ship checklist. |
 | `laws/01-foundations.md` | Bauhaus and Swiss grid, in plain words. Why the rest exists. |
 | `laws/02-relative-spacing.md` | Every gap is equal to a neighbor or a clean multiple of one. Never random. |
-| `laws/03-grid-and-layout.md` | Full-width text, no dead right gap, no stop-short elements, 320px works. |
+| `laws/03-grid-and-layout.md` | 1440 desktop standard, full-width text, no dead right gap, no stop-short elements, 320px works. |
 | `laws/04-typography.md` | Two faces, one scale, weight for hierarchy, readable measure. |
 | `laws/05-color-and-contrast.md` | Palettes come from the color wheel. Ink on an accent comes from the math. Drop shadows as duct tape. |
 | `laws/06-controls.md` | Carets inset from the edge, the status pill is the control, grips not arrows, mark AI actions. |

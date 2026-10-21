@@ -1,5 +1,11 @@
 # 03 · Grid and layout
 
+## 1440 is the desktop standard
+
+Design desktop at 1440 wide, and review every desktop comp at 1440 first. Content containers cap at 1440px, set once as a token (`--container: 1440px`) and read everywhere, so every page on a product lines up. Wider screens center the container; they do not stretch it.
+
+Why 1440: not everyone has a 1920 x 1080 screen, but most desktop and laptop screens can still fit a 1440 layout. Design for 1920 and smaller screens lose the layout; design for 1440 and big screens just get margin. A page that needs a narrower reading column caps its text inside the 1440 container. It does not invent its own container width.
+
 ## No dead right gap
 
 Capped text inside a full-width container leaves an orphaned strip on the right. That is a defect. Text spans its container. No measure caps (`max-width: 65ch`) inside full-width blocks, and no multi-column splits with gutters through running copy. If a container is full width, its content runs edge to edge, padding aside.
